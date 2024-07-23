@@ -1,0 +1,161 @@
+body {
+    margin: 10px;
+    background-image: url("images/court.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: block;
+    background-image: url("images/ball.jpg");
+    background-size: cover;
+    width: 400px;
+    margin: 100px auto;
+}
+
+
+#timer {
+    display: block;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                              
+    font-size: 50px;
+    color: orange;
+    padding: 10px;
+}
+
+.home-guest { 
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    left: 340px;
+    gap: 0px;
+    opacity: 0px;
+    color: #EEEEEE;
+    margin: 10px 0 10px 0;
+}
+
+#score-home {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                              
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    background: black;
+    color: red;
+}
+
+#score-guest {
+    font-family: 'Cursed Timer ULiL', sans-serif;                                              
+    font-size: 50px;
+    text-align: center;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    background: black;
+    color: red;
+}
+
+
+.add-btn {
+    border: 2px solid #9AABD8;
+    color: white;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 0 0 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.foul-counter {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.foul {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    text-shadow: 0 0 5px black;
+}
+
+#home-foul {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: black;
+    color: red;
+}
+
+#guest-foul {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 5px;
+    background: black;
+    color: red;
+}
+
+.foul-btn {
+    border: 2px solid #9AABD8;
+    color: white;
+    background: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0 0 0 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.game-btn {
+    text-align: center; 
+    padding: 20px;
+}
+
+#start-btn {
+    background: green;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+#pause-btn {
+    background: orangered;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+#reset-btn {
+    background: black;
+    color: white;
+    border: 2px solid #9AABD8;
+    border-radius: 4px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
