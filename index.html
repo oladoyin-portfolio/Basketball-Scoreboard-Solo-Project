@@ -1,12 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <title> Basketball Scoreboard </title>
         <link rel="stylesheet" href="index.css">
         <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
+        <main class="container">
+            <h1> BASKETBALL GAME </h1>
             <div id="timer"> 00:00 </div>
+            <!-- SCORE SECTION-->
             <div class="home-guest">
                 <div>
                     <h3>HOME</h3>   
@@ -23,6 +26,7 @@
                     <button class="add-btn" onclick="add3GuestPoint()"> +3 </button>
                 </div>
             </div>
+            <!-- FOUL SECTION-->
             <div class="foul-counter">
                 <div>
                     <div class="foul">FOUL</div>
@@ -35,12 +39,13 @@
                     <button class="foul-btn" onclick="addGuestFoul()"> + </button>
                 </div>
             </div>   
+            <!-- BUTTON SECTION-->
             <div class="game-btn">
                 <button id="start-btn" onclick="startGame()"> START </button>
                 <button id="pause-btn" onclick="pauseTimer()"> PAUSE </button>
                 <button id="reset-btn" onclick="resetGame()"> RESET </button>
             </div>
-        </div>
+        </main>
         <script src="index.js"></script>
     </body>
 </html>
